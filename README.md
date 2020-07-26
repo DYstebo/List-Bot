@@ -1,5 +1,7 @@
 # List-Bot
-List-Bot can randomly choose a user-specified amount of either unique or non-unique items from a created list. You could make a list of users to select from, a list of your favorite sports teams, Numbers, or anything else you'd like! Use `/help` to get started!
+List-Bot can randomly choose a user-specified amount of either unique or non-unique 
+items from a created list. You could make a list of users to select from, a list of 
+your favorite sports teams, numbers, or anything else you'd like! Use `/help` to get started!
 
 # Commands List:
 /new [List or Entries] [List name] [Entries separated by spaces, optional]
@@ -20,7 +22,7 @@ List-Bot can randomly choose a user-specified amount of either unique or non-uni
 
 /info
 
-# To run: 
-Copy your bot token, and put it in the field labelled botToken in the config.json file
+# To run:
+Copy your bot token, and put it in the field labelled `botToken` in the `config.json` file.
 
 Then run the batch file 'Run Lists.bat' and your bot is ready to make some lists!
