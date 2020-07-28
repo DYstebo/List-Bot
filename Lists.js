@@ -36,11 +36,11 @@ client.on('message', message => {
                     return console.error(`Problem saving new list, ${listName}: `, err);
                 }
 
-                let message = `Created new list, ${listName}!`;
+                let newMessage = `Created new list, ${listName}!`;
                 if (args != null || args.length != 0)
-                    message = `${message.substring(0, message.length - 1)}, with entries ${generateListArray(args)}.`;
+                    message = `${newMessage.substring(0, newMessage.length - 1)}, with entries ${generateListArray(args)}.`;
 
-                message.channel.send(message);
+                message.channel.send(newMessage);
             });
         }
         else if (listOrEntry === "entries") {
@@ -85,7 +85,7 @@ client.on('message', message => {
                     console.error("[ERROR] Problem removing list! Are you sure it exists? Make sure you didn't make any typos...");
                     message.channel.send("Cannot remove a list that doesn't exist!");
                 } else {
-                    console.log(`Successfully deleted list, ${listName}!`);
+		    message.channel.send(`Successfully deleted list, ${listName}!`);
                 }
             });
         } else if (listOrEntry === "entries") {
