@@ -38,7 +38,7 @@ client.on('message', message => {
 
                 let message = `Created new list, ${listName}!`;
                 if (args != null || args.length != 0)
-                    message += `, with entries ${generateListArray(args)}.`;
+                    message = `${message.substring(0, message.length - 1)}, with entries ${generateListArray(args)}.`;
 
                 message.channel.send(message);
             });
