@@ -1,3 +1,5 @@
+[Add my Discord Bot!](https://discord.com/api/oauth2/authorize?client_id=678422329759367178&permissions=84992&scope=bot){: .btn}
+
 # List-Bot
 List-Bot can randomly choose a user-specified amount of either unique or non-unique 
 items from a created list. You could make a list of users to select from, a list of 
