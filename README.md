@@ -1,4 +1,4 @@
-[Add my Discord Bot!](https://discord.com/api/oauth2/authorize?client_id=678422329759367178&permissions=84992&scope=bot){: .btn}
+<button name="button" onclick="http://www.google.com">Add my Discord Bot to your Server!</button>
 
 # List-Bot
 List-Bot can randomly choose a user-specified amount of either unique or non-unique 
