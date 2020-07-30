@@ -2,6 +2,7 @@
   <br>
   <b>I'm hosting a Discord Bot running 24/7 that can be added to your servers!</b><br>
   <button type="button" onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=678422329759367178&permissions=84992&scope=bot';">Click here to add my Bot to your Servers!</button>
+</p>
   
 
 # List-Bot
