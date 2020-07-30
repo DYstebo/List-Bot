@@ -1,22 +1,10 @@
-<p align ="center">
-  <b><h1 style="font-size:32px">I'm hosting a Discord Bot running 24/7 that can be added to your servers!</h1> </b>
-  <style>
-    .button {
-      border: none;
-      color: white;
-      background-color: black;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 22px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-  </style>
+<html>
+  <b><h1 style="font-size:28px" align ="center">I'm hosting a Discord Bot running 24/7 that can be added to your servers!</h1> </b>
   <br>
-  <button type="button" onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=678422329759367178&permissions=84992&scope=bot';">Click here to add my Bot to your Servers!</button>
-</p>
+  <p align="center">
+  <button type="button" style="font-size:24px" background-color: "#FFFFFF" align="center" onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=678422329759367178&permissions=84992&scope=bot';">Click here to add my Bot to your Servers!</button>
+  </p>
+</html>
   
 
 # List-Bot
