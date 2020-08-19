@@ -14,7 +14,7 @@ List-Bot can randomly choose a user-specified amount of either unique or non-uni
 items from a created list. You could make a list of users to select from, a list of 
 your favorite sports teams, numbers, or anything else you'd like! Use `/help` to get started!
 
-# Commands List:
+## Commands List:
 /new [List or Entries] [List name] [Entries separated by spaces, optional]
 
 /delete [List or Entries] [List name] [Entries separated by spaces, not required if deleting a list]
@@ -33,7 +33,12 @@ your favorite sports teams, numbers, or anything else you'd like! Use `/help` to
 
 /info
 
-# To run:
+## To run:
 Copy your bot token, and put it in the field labelled `botToken` in the `config.json` file.
 
 Then run the batch file 'Run Lists.bat' and your bot is ready to make some lists!
+
+## Getting your login token
+
+Go to [this link](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Troubleshooting#my-token-is-disappearing-too-quickly-i-cant-copy-it) and follow the instructions
+to get your login token.
